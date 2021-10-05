@@ -9,9 +9,9 @@ let Ubicacion=function(X,Y)
                 let data=json;
                 let Ubicacion=document.getElementById('Resultado');
                 Ubicacion.innerHTML="";
-                if(data.location!=undefined && data.location!=undefined)
+                if(data.location!=undefined)
                     {
-                    Ubicacion.innerHTML=`<h3>Las Coordenadas pertenecen a la ciudad de</h3>
+                    Ubicacion.innerHTML=`<h3>Las Coordenadas pertenecen a la ciudad de </h3>
                                         <h1><label id="ciudad" type="button" onclick="Clima()">${data.location.name}, ${data.location.region} (${data.location.country})</label></h1>
                                         `;
                     }
