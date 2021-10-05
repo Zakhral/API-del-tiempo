@@ -1,0 +1,7 @@
+la diferencia entre un callback y una promesa es que:
+al callback tienes que anidarlo ya sea en forma de bucles o en forma de
+preguntas funcion tras funcion y revisando cada una para encontrar el error,
+estas creando una especie de piramide en vertical y el codigo se vuelve
+enredoso y en una promesa se hace de forma mas sencilla, pues al hacer una
+llamada solo se necesitan dos partes la forma de como consumirlas (el paarametro)
+y la forma de como crearlas (con una funcion).
